@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-27T08:40:18 IST" name="Default suite" finished-at="2023-06-27T08:40:34 IST" duration-ms="16391">
+    <groups>
+    </groups>
+    <test started-at="2023-06-27T08:40:18 IST" name="Default test" finished-at="2023-06-27T08:40:34 IST" duration-ms="16391">
+      <class name="TestNGMethods.FacebookTestingUsingDataProvider">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:18 IST" name="setup" finished-at="2023-06-27T08:40:20 IST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="aloginPage()[pri:1, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:20 IST" name="aloginPage" finished-at="2023-06-27T08:40:31 IST" duration-ms="10212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aloginPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:31 IST" name="quitBrowser" finished-at="2023-06-27T08:40:31 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:32 IST" name="setup" finished-at="2023-06-27T08:40:34 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loinPageWithInvalidInputs(java.lang.String,java.lang.String)[pri:1, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:34 IST" name="loinPageWithInvalidInputs" data-provider="testExceldata" finished-at="2023-06-27T08:40:34 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fita@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fita@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loinPageWithInvalidInputs -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestNGMethods.FacebookTestingUsingDataProvider@6fa51cd4]" started-at="2023-06-27T08:40:34 IST" name="quitBrowser" finished-at="2023-06-27T08:40:34 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestNGMethods.FacebookTestingUsingDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
